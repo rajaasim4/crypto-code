@@ -1,0 +1,47 @@
+.Slider {
+  height: 250px;
+  margin: auto;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  position: relative;
+  overflow: hidden;
+  /* if you want to Tilt the Animation */
+  /* transform: rotateZ(-4deg); */
+}
+.Slide_track {
+  display: flex;
+  /* Total Number of Images Used here */
+  width: calc(260px * 10);
+  animation: slide 35s linear infinite;
+}
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  /* Actual Images used rather than duplication */
+  100% {
+    transform: translateX(calc(-260px * 5));
+  }
+}
+.Slide {
+  width: 260px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  perspective: 100px;
+}
+
+.Slide img {
+  width: 100%;
+  transition: 0.3s linear;
+}
+
+.Slide img:hover {
+  transform: scale(1.2);
+  /* transform: translateZ(20px); */
+}
+.Slide_track:hover {
+  animation-play-state: paused;
+}

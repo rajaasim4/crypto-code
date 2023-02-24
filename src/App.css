@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800&family=Lato:wght@300;400;700&display=swap");
+.inter-font {
+  font-family: "Inter", sans-serif;
+}
+.lato-font {
+  font-family: "Lato", sans-serif;
+}
+.primary-text-color {
+  color: #969696;
+}
+.Main-btn {
+  /* padding: 0px 50px; */
+  width: 180px;
+  height: 45px;
+  background: linear-gradient(90deg, #3fe8ab 0%, #78cdcd 100%);
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}

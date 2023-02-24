@@ -1,0 +1,25 @@
+.CurrencyCard {
+  /* width: 400px; */
+  width: 100%;
+  height: 509px;
+  background: #151515;
+  border: 4px solid #383f3e;
+  border-radius: 60px;
+  box-sizing: border-box;
+}
+.Currency-icon {
+  background: linear-gradient(90deg, #144735 0%, #284646 100%);
+
+  width: 105px;
+  height: 105px;
+  border-radius: 50%;
+}
+.Currency-icon span {
+  color: #42dda7;
+}
+.CurrencyCard h3 {
+  background: linear-gradient(90deg, #3fe8ab 0%, #78cdcd 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}

@@ -1,0 +1,14 @@
+.Hero-content h1 {
+  font-size: 68px;
+  color: red;
+}
+@media (width <=991px) {
+  .Hero-content h1 {
+    font-size: 50px;
+  }
+}
+@media (width <=540px) {
+  .Hero-content h1 {
+    font-size: 30px;
+  }
+}

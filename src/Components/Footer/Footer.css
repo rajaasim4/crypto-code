@@ -1,0 +1,23 @@
+footer h3 {
+  color: #f7f7f7;
+}
+footer a {
+  color: #b8b8b8 !important;
+  text-transform: uppercase;
+}
+.footer-social a {
+  width: 46px;
+  height: 46px;
+  background: #151515;
+  border: 2px solid #383f3e;
+  border-radius: 10px;
+  transition: all 0.4s linear;
+  color: white !important;
+}
+.footer-social a:hover {
+  background: linear-gradient(90deg, #3fe8ab 0%, #78cdcd 100%);
+  color: black !important;
+}
+footer .Copyright {
+  border-top: 1px solid white;
+}
